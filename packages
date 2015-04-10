@@ -1,5 +1,4 @@
 cifs-utils		install
-cuetools		install
 curl		install
 ffmpeg		install
 flac		install
@@ -27,7 +26,6 @@ pidgin-hotkeys		install
 pidgin-indicator		install
 pidgin-openpgp		install
 pidgin-otr		install
-pidgin-skype		install
 pidgin-themes		install
 pidgin-znchelper		install
 
@@ -35,27 +33,18 @@ filezilla		install
 gnome-encfs-manager		install
 insync-nemo		install
 nemo		install
-nemo-compare		install
 nemo-filename-repairer		install
 nemo-fileroller		install
 nemo-gtkhash		install
-nemo-image-converter		install
 nemo-media-columns		install
-nemo-pushbullet		install
 nemo-seahorse		install
 nemo-share		install
-nemo-terminal		install
 samba		install
 sshfs		install
 unison-gtk		install
 
 gcolor2		install
-giggle		install
-giggle-personal-details-plugin		install
-giggle-terminal-view-plugin		install
 git		install
-git-flow		install
-git-ftp		install
 mercurial		install
 sublime-text-installer		install
 poedit		install
@@ -71,10 +60,8 @@ gimp-gmic		install
 gnome-xcf-thumbnailer		install
 inkscape		install
 kdenlive		install
-minitube		install
 vlc		install
 phatch		install
-puddletag		install
 youtube-dl		install
 youtube-dlg		install
 
@@ -87,6 +74,7 @@ indicator-sysmonitor		install
 notifyosdconfig		install
 pavucontrol		install
 paprefs		install
+pulseaudio-dlna		install
 python-pip		install
 rygel		install
 rygel-gst-launch		install
@@ -99,12 +87,10 @@ unity-tweak-tool		install
 y-ppa-manager		install
 wine		install
 
-ap-hotspot		install
 haguichi		install
 haguichi-appindicator		install
 indicator-netspeed		install
 modem-manager-gui		install
-proxychains		install
 sshuttle		install
 wireshark		install
 zenmap		install
@@ -114,8 +100,8 @@ caffeine		install
 chromium-browser		install
 keepassx		install
 k3b		install
+minecraft-installer		install
 playonlinux		install
-power-commands		install
 pushbullet-indicator		install
 retext		install
 screenruler		install

@@ -27,6 +27,7 @@ sudo add-apt-repository ppa:numix/ppa
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 sudo add-apt-repository ppa:peterlevi/ppa
 sudo add-apt-repository ppa:pidgin-developers/ppa
+sudo add-apt-repository ppa:ppa:qos/pulseaudio-dlna
 sudo add-apt-repository ppa:tualatrix/next
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
 sudo add-apt-repository ppa:ubuntu-wine/ppa
