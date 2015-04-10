@@ -1,0 +1,28 @@
+apache2		install
+apache2-utils		install
+php5		install
+php5-curl		install
+php5-dev		install
+php5-gd		install
+php-gettext		install
+php5-imagick		install
+php5-intl		install
+php5-json		install
+php5-mcrypt		install
+php5-memcache		install
+php5-memcached		install
+php5-mongo		install
+php5-mysql		install
+php-pear		install
+php5-pgsql		install
+php-soap		install
+php5-sqlite		install
+php5-xdebug		install
+php5-xmlrpc		install
+
+mysqltuner		install
+mysql-server		install
+mytop		install
+phpmyadmin		install
+
+dnsmasq		install
