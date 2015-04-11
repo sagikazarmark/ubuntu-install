@@ -15,9 +15,13 @@
 # Install PHPbrew
 ./dev/phpbrew.sh
 
-phpbrew install 5.6 +gd +gettext +mcrypt +phar +session +soap +xdebug +xmlrpc
-phpbrew install 5.5 +gd +gettext +mcrypt +phar +session +soap +xdebug +xmlrpc
-phpbrew install 5.4 +gd +gettext +mcrypt +phar +session +soap +xdebug +xmlrpc
+VARIANTS="+gd +gettext +mcrypt +phar +session +soap +xdebug +xmlrpc"
+
+phpbrew install 5.6.6 $VARIANTS
+phpbrew install 5.5 $VARIANTS
+phpbrew install 5.4 $VARIANTS
+
+phpbrew switch 5.6.6
 
 # Install box
 ./dev/box.sh
