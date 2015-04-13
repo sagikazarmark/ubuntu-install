@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 wget http://download3.navicat.com/download/navicat111_mysql_en.tar.gz -P /tmp
 
