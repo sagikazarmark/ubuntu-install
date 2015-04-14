@@ -30,6 +30,11 @@ You need to/can do some further settings to make the system work properly:
 There are some extra software installers in the `extras/` directory. Make sure to execute `extras/init.sh` before.
 
 
+## Development
+
+There are some experimental install scripts in the `dev/` directory.
+
+
 ## Remove replaced packages
 
 This installer kit provides replacements for some builtin Ubuntu softwares:
