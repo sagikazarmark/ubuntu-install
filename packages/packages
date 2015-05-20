@@ -2,7 +2,7 @@ cifs-utils		install
 curl		install
 ffmpeg		install
 flac		install
-oracle-java9-installer		install
+oracle-java8-installer		install
 icedtea-plugin		install
 imagemagick		install
 lame		install
