@@ -91,7 +91,6 @@ rygel-gst-launch		install
 solaar-gnome3		install
 ssh		install
 terminator		install
-ubuntu-tweak		install
 unetbootin		install
 unity-tweak-tool		install
 xbindkeys		install
