@@ -19,7 +19,10 @@ ppa:numix/ppa
 ppa:otto-kesselgulasch/gimp
 ppa:peterlevi/ppa
 ppa:qos/pulseaudio-dlna
+ppa:rael-gc/scudcloud
 ppa:sagikazarmark/development
+ppa:sagikazarmark/proprietary
+ppa:sagikazarmark/server
 ppa:ubuntu-mozilla-daily/firefox-aurora
 ppa:ubuntu-wine/ppa
 ppa:webupd8team/haguichi

@@ -28,6 +28,7 @@ pidgin-openpgp		install
 pidgin-otr		install
 pidgin-themes		install
 pidgin-znchelper		install
+scudcloud		install
 
 filezilla		install
 gnome-encfs-manager		install
