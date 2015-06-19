@@ -46,7 +46,6 @@ unison-gtk		install
 composer		install
 gcolor2		install
 git		install
-heroku-toolbelt		install
 mercurial		install
 mysql-server		install
 nodebrew		install
