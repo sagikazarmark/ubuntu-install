@@ -6,8 +6,8 @@ oracle-java8-installer		install
 icedtea-plugin		install
 imagemagick		install
 lame		install
-libavcodec-extra-54		install
-libavformat-extra-54		install
+libavcodec-extra-56		install
+libavformat-extra-56		install
 p7zip		install
 rar		install
 ubuntu-restricted-extras		install
@@ -57,11 +57,9 @@ phpbrew		install
 phpunit		install
 psysh		install
 robo		install
-rocketeer		install
 
 audacity		install
 anoise		install
-clementine		install
 easytag		install
 gimp		install
 gimp-help-en		install
