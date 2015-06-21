@@ -13,7 +13,9 @@
 
 1. Install your choice of Ubuntu version (LTS recommended, currently: Trusty Tahr)
 2. Restore your home directory backup (Note: if you customized your .bashrc script opening a terminal will likely show some errors (executables not present, etc). For the time being you can just ignore them.)
-3. Execute `install.sh`
+3. Execute `ppas.sh` to install PPAs
+4. Execute `repositories.sh` to install Insync and Virtualbox repositories
+5. Execute `install.sh`
 
 
 ## Configuration

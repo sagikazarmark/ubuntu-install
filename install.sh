@@ -1,24 +1,17 @@
 #!/bin/bash
 
-# Add PPAs
-while read line
-do
-    sudo add-apt-repository -y $line
-done < ppas
-
-# Add Insync repository
-echo "deb http://apt.insynchq.com/ubuntu $(lsb_release -sc) non-free contrib" | sudo tee /etc/apt/sources.list.d/insync.list
-wget -qO - https://d2t3ff60b2tol4.cloudfront.net/services@insynchq.com.gpg.key | sudo apt-key add -
-
-# Add Virtualbox repository
-echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 sudo apt-get autoremove -y
-sudo apt-get install -y synaptic debconf-utils
+sudo apt-get install -y synaptic debconf-utils launchpad-getkeys
+
+# Remove all PPA GPG keys to remove duplicates
+sudo rm -rf /etc/apt/trusted.gpg.d/*_ubuntu_*.gpg
+sudo rm -rf /etc/apt/trusted.gpg.d/*_ubuntu_*.gpg~
+
+# Redownload GPG keys (if needed)
+sudo launchpad-getkeys
 
 if [ -f "debconf.seed" ]; then
 	echo "Loading debconf selections"
