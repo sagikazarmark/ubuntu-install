@@ -32,7 +32,6 @@ scudcloud		install
 skype		install
 
 filezilla		install
-gnome-encfs-manager		install
 insync-nemo		install
 nemo		install
 nemo-filename-repairer		install
@@ -108,7 +107,6 @@ zenmap		install
 albert		install
 caffeine		install
 chromium-browser		install
-indicator-systemtray-unity		install
 k3b		install
 keepassx		install
 minecraft-installer		install
@@ -121,3 +119,8 @@ simplescreenrecorder		install
 simplescreenrecorder-lib:i386		install
 typecatcher		install
 virtualbox-4.3		install
+
+hddtemp		install
+indicator-systemtray-unity		install
+lm-sensors		install
+psensor		install
