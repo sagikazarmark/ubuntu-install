@@ -2,7 +2,7 @@ cifs-utils		install
 curl		install
 ffmpeg		install
 flac		install
-oracle-java8-installer		install
+openjdk-7-jdk		install
 icedtea-plugin		install
 imagemagick		install
 lame		install
@@ -14,13 +14,17 @@ ubuntu-restricted-extras		install
 unrar		install
 wavpack		install
 
-faba-icon-theme		install
+arc-theme		install
 faba-colors		install
+faba-icon-theme		install
 faba-mono-icons		install
 moka-icon-theme		install
 numix-gtk-theme		install
 numix-icon-theme		install
+vertex-theme		install
 
+birdie		install
+hipchat		install
 pidgin		install
 pidgin-hotkeys		install
 pidgin-indicator		install
@@ -31,6 +35,7 @@ pidgin-znchelper		install
 scudcloud		install
 skype		install
 
+dukto		install
 filezilla		install
 insync-nemo		install
 nemo		install
@@ -44,32 +49,65 @@ samba		install
 sshfs		install
 unison-gtk		install
 
-composer		install
+perl		install
+php5		install
+php5-dev		install
+php-pear		install
+autoconf		install
+automake		install
+curl		install
+build-essential		install
+libxslt1-dev		install
+re2c		install
+libxml2		install
+libxml2-dev		install
+php5-cli		install
+bison		install
+libbz2-dev		install
+libreadline-dev		install
+libfreetype6		install
+libfreetype6-dev		install
+libpng12-0		install
+libpng12-dev		install
+libjpeg-dev		install
+libjpeg8-dev		install
+libjpeg8		install
+libgd-dev		install
+libgd3		install
+libxpm4		install
+libltdl7		install
+libltdl-dev		install
+libssl-dev		install
+openssl		install
+gettext		install
+libgettextpo-dev		install
+libgettextpo0		install
+libicu-dev		install
+libmhash-dev		install
+libmhash2		install
+libmcrypt-dev		install
+libmcrypt4		install
+
 gcolor2		install
 git		install
 mercurial		install
-mysql-server		install
-nodebrew		install
 sublime-text-installer		install
 packaging-dev		install
 poedit		install
-phpbrew		install
-phpunit		install
-psysh		install
-robo		install
 
-audacity		install
 anoise		install
+audacity		install
 easytag		install
 gimp		install
+gimp-gmic		install
 gimp-help-en		install
 gimp-plugin-registry		install
-gimp-gmic		install
 gnome-xcf-thumbnailer		install
 inkscape		install
 kdenlive		install
-vlc		install
 phatch		install
+spotify-client		install
+vlc		install
 youtube-dl		install
 youtube-dlg		install
 
@@ -118,9 +156,11 @@ shutter		install
 simplescreenrecorder		install
 simplescreenrecorder-lib:i386		install
 typecatcher		install
-virtualbox-4.3		install
+virtualbox-5.0		install
 
 hddtemp		install
 indicator-systemtray-unity		install
 lm-sensors		install
 psensor		install
+
+steam		install

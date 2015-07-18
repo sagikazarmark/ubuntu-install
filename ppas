@@ -1,5 +1,6 @@
 ppa:amandeepgrewal/notifyosdconfig
 ppa:atareao/atareao
+ppa:birdie-team/stable
 ppa:caffeine-developers/ppa
 ppa:costales/anoise
 ppa:daniel.pavel/solaar
@@ -15,6 +16,7 @@ ppa:maarten-baert/simplescreenrecorder
 ppa:minecraft-installer-peeps/minecraft-installer
 ppa:moka/stable
 ppa:nilarimogard/webupd8
+ppa:no1wantdthisname/openjdk-fontfix
 ppa:numix/ppa
 ppa:otto-kesselgulasch/gimp
 ppa:peterlevi/ppa
