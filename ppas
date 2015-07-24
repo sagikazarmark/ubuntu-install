@@ -4,8 +4,6 @@ ppa:birdie-team/stable
 ppa:caffeine-developers/ppa
 ppa:costales/anoise
 ppa:daniel.pavel/solaar
-ppa:fixnix/indicator-systemtray-unity
-ppa:fossfreedom/indicator-sysmonitor
 ppa:git-core/ppa
 ppa:inkscape.dev/stable
 ppa:konradgraefe/pidgin-plugins
@@ -22,13 +20,10 @@ ppa:otto-kesselgulasch/gimp
 ppa:peterlevi/ppa
 ppa:qos/pulseaudio-dlna
 ppa:rael-gc/scudcloud
-ppa:sagikazarmark/development
-ppa:sagikazarmark/proprietary
+ppa:ricotz/docky
 ppa:sagikazarmark/server
 ppa:ubuntu-mozilla-daily/firefox-aurora
 ppa:ubuntu-wine/ppa
 ppa:webupd8team/haguichi
-ppa:webupd8team/java
 ppa:webupd8team/nemo
-ppa:webupd8team/sublime-text-3
 ppa:webupd8team/y-ppa-manager

@@ -1,2 +1,3 @@
 ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula boolean true
 ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true
+wireshark-common wireshark-common/install-setuid boolean true

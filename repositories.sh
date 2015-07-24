@@ -33,3 +33,25 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59 
 echo "deb [arch=amd64,i386] http://repo.steampowered.com/steam/ precise steam" | sudo tee /etc/apt/sources.list.d/steam.list
 echo "deb-src [arch=amd64,i386] http://repo.steampowered.com/steam/ precise steam" | sudo tee -a /etc/apt/sources.list.d/steam.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F24AEA9FB05498B7
+
+# Update PPAs
+
+if [[ -f /etc/apt/sources.list.d/amandeepgrewal-ubuntu-notifyosdconfig-$RELEASE.list ]]; then
+	sudo mv /etc/apt/sources.list.d/amandeepgrewal-ubuntu-notifyosdconfig-$RELEASE.list /etc/apt/sources.list.d/amandeepgrewal-ubuntu-notifyosdconfig-utopic.list
+	sudo sed -i "s/$RELEASE/utopic/g" /etc/apt/sources.list.d/amandeepgrewal-ubuntu-notifyosdconfig-utopic.list
+fi
+
+if [[ -f /etc/apt/sources.list.d/skype-wrapper-ubuntu-ppa-$RELEASE.list ]]; then
+	sudo mv /etc/apt/sources.list.d/skype-wrapper-ubuntu-ppa-$RELEASE.list /etc/apt/sources.list.d/skype-wrapper-ubuntu-ppa-trusty.list
+	sudo sed -i "s/$RELEASE/trusty/g" /etc/apt/sources.list.d/skype-wrapper-ubuntu-ppa-trusty.list
+fi
+
+if [[ -f /etc/apt/sources.list.d/daniel_pavel-ubuntu-solaar-$RELEASE.list ]]; then
+	sudo mv /etc/apt/sources.list.d/daniel_pavel-ubuntu-solaar-$RELEASE.list /etc/apt/sources.list.d/daniel_pavel-ubuntu-solaar-trusty.list
+	sudo sed -i "s/$RELEASE/trusty/g" /etc/apt/sources.list.d/daniel_pavel-ubuntu-solaar-trusty.list
+fi
+
+if [[ -f /etc/apt/sources.list.d/konradgraefe-ubuntu-pidgin-plugins-$RELEASE.list ]]; then
+	sudo mv /etc/apt/sources.list.d/konradgraefe-ubuntu-pidgin-plugins-$RELEASE.list /etc/apt/sources.list.d/konradgraefe-ubuntu-pidgin-plugins-trusty.list
+	sudo sed -i "s/$RELEASE/trusty/g" /etc/apt/sources.list.d/konradgraefe-ubuntu-pidgin-plugins-trusty.list
+fi
